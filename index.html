@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nagaraj's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white transition-colors duration-300">
+
+  <!-- Loader -->
+  <div id="loader" class="fixed inset-0 flex items-center justify-center bg-gray-900 z-50">
+    <div class="loader"></div>
+  </div>
+
+  <main class="p-4 space-y-16 max-w-4xl mx-auto">
+
+    <!-- Hero -->
+    <section class="text-center mt-20">
+      <h1 class="text-4xl font-bold">Hi, I'm <span class="text-blue-400">Nagaraj Naik</span></h1>
+      <p class="mt-2 text-lg" id="typing-text"></p>
+      <button onclick="toggleTheme()" class="mt-4 px-4 py-2 bg-blue-500 rounded">Toggle Theme</button>
+    </section>
+
+    <!-- About -->
+    <section>
+      <h2 class="text-2xl font-semibold mb-2">About Me</h2>
+      <p>I'm a passionate front-end developer and 2nd year CSE student who enjoys building clean and interactive web applications.</p>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <h2 class="text-2xl font-semibold mb-4">Projects</h2>
+      <div class="grid gap-4 sm:grid-cols-2">
+        <div class="p-4 bg-gray-800 rounded-xl shadow">
+          <h3 class="font-bold text-lg">Blog Editor</h3>
+          <p class="text-sm mt-1">A full-stack blog editor with auto-save and Markdown support.</p>
+        </div>
+        <div class="p-4 bg-gray-800 rounded-xl shadow">
+          <h3 class="font-bold text-lg">Portfolio Website</h3>
+          <p class="text-sm mt-1">A personal portfolio site showcasing my work and skills using Tailwind CSS.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section>
+      <h2 class="text-2xl font-semibold mb-2">Contact</h2>
+      <p>Email: <a href="mailto:nagaraj@example.com" class="text-blue-400">nagaraj@example.com</a></p>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
