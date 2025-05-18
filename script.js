@@ -10,7 +10,7 @@ function toggleTheme() {
 }
 
 const typingText = document.getElementById("typing-text");
-const phrases = ["Front-End Developer", "CSE Student", "Web Enthusiast"];
+const phrases = ["Front-End Developer", "Cloud Computing Enthusiast"];
 let i = 0, j = 0, isDeleting = false;
 
 function typeEffect() {
